@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,600,800" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="country.css">
+    <script src="country.js" type="module"></script>
+</head>
+
+<body class="">
+    <header class="header-container">
+        <div class="header-content">
+            <h2>Where in the world?</h2>
+            <p class="theme"><ion-icon class="dark-light" name="moon-outline"></ion-icon>&nbsp;&nbsp;<span>Dark
+                    Mode</span></p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <a href="#" class="back-btn" onclick=history.back()>
+                <ion-icon name="arrow-back-outline"></ion-icon>Back
+            </a>
+            <div class="country-card-container">
+                <div class="img-container">
+                    <img src="" alt="">
+                </div>
+
+                <div class="country-details-container">
+                    <h3 class="country-name"></h3>
+                    <div class="country-details">
+                        <p><b>Native Name:</b><span class="native-name"></span></p>
+                        <p><b>Population:</b><span class="population"></span></p>
+                        <p><b>Region:</b><span class="region"></span></p>
+                        <p><b>Sub Region:</b><span class="sub-region"></span></p>
+                        <p><b>Capital:</b><span class="capital"></span></p>
+                        <p class="top-level"><b>Top Level Domain:</b><span class="top-level-domain"></span></p>
+                        <p><b>Currencies:</b><span class="currency">&nbsp;Euro</span></p>
+                        <p class="lang"><b>Languages:</b><span class="language"></span></p>
+                    </div>
+                    <div class="border">
+                        <p><b>Border Countries:</b>
+                        <div class="border-name">
+                            <!-- <a href="#">France</a>
+                            <a href="#">Germany</a> -->
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
